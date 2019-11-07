@@ -44,12 +44,12 @@
         ```
         
     4. Connect to a remote Docker daemon
-    ```sh
-    echo "export DOCKER_HOST=tcp://localhost:2375" >> ~/.bashrc && source ~/.bashrc
-    ```
+        ```sh
+        echo "export DOCKER_HOST=tcp://localhost:2375" >> ~/.bashrc && source ~/.bashrc
+        ```
     
     5. 작동 여부 확인
-    ```sh
-    docker info
-    docker-compose --version
-    ```
+        ```sh
+        docker info
+        docker-compose --version
+        ```
