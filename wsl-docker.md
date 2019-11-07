@@ -9,6 +9,14 @@
     
 - 선행 작업
     - WSL Ubuntu 설치
+    - Python 3 기본 버전 설정
+    ```sh
+    sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.6 1
+    ```
+    - pip3 설치
+    ```sh
+    sudo apt install python3-pip
+    ```
 
 - Docker install on WSL ubuntu
 
@@ -37,8 +45,7 @@
         ```
         
     3. Docker Compose 설치
-        ```sh
-        sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.6 1
+        ```sh        
         sudo apt-get install -y python python-pip
         pip install --user docker-compose
         ```
