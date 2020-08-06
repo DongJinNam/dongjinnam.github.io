@@ -145,4 +145,32 @@ Your requested instance type (t2.micro) is not supported in your requested Avail
 * bastion host
   * private subnet 에 구성된 VM 에 경우에는 internet gateway 를 통해서 접근 불가함.
   * VPN 을 이용하는 방법이 있으나, 비용 문제로 인하여 bastion host 방식 을 이용하는 것이 좋음
-  * To be continued.
+  * **To be continued**
+  * ec2 instance 생성
+    * vpc-apne2-test
+    * subnet-apne2-test
+    * public 자동 할당 비활성화
+    * 
+
+
+
+### WEB, WAS, DB
+
+
+
+**Components**
+
+* WEB : Presentation Layer (ex. Apache, Nginx)
+* WAS : Business Layer (ex. Spring, Django and so on)
+* DB : Data Layer (ex. RDBMS, NoSQL)
+
+
+
+위 3가지 기준, VM 3개 생성 후 아래와 같이 테스트 합니다.
+
+* WEB : Public Subnet
+* WAS : Private Subnet
+* DB : Private Subnet
+
+
+
