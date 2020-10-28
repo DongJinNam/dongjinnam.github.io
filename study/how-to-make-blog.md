@@ -44,3 +44,11 @@ $ git commit -m "[Update] Centrarium theme _config.yml"
 $ git push origin master
 ```
 
+
+
+**local test**
+
+```sh
+$ bundle exec jekyll serve
+```
+
