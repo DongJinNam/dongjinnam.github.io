@@ -92,9 +92,9 @@ social:
 
   - name: GitHub
     icon: github
-    username: bencentra
+    username: nandy
     url: https://github.com/DongJinNam
-    desc: Fork me on GitHub
+    desc: nandy's github homepage
     share: false
 
   # - name: LinkedIn
