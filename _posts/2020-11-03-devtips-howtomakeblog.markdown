@@ -7,6 +7,7 @@ alt: image-alt
 project-date: November 2020
 client: Start Bootstrap
 category: Dev Tips
+title:  "[DevTips] How to make github blog"
 description: How to make github blog by nandy
 ---
 # How to make blog
