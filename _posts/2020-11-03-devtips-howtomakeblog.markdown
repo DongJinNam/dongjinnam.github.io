@@ -52,6 +52,7 @@ $ git push origin master
 **Local Test**
 
 * 로컬 테스트 시, ruby 가 global 환경으로 설치가 되어야 합니다.
+* 아래 개발 환경은 ruby 2.6.0 버전으로 진행하였기 때문에, ruby version 이 다르면 변경이 필요합니다
 
 **Ubuntu 환경 ruby 설치**
 
@@ -59,7 +60,7 @@ $ git push origin master
 $ sudo apt update
 $ sudo apt install autoconf bison build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm5 libgdbm-dev
 $ git clone https://github.com/rbenv/rbenv.git ~/.rbenv
-$ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+$ echo 'export PATH="$HOME/.rbenv/versions/2.6.0/bin:$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
 $ echo 'eval "$(rbenv init -)"' >> ~/.bashrc
 $ source ~/.bashrc
 # ruby 전역 2.6.0 이상 설정
