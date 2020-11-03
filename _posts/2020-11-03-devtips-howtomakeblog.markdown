@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 modal-id: 6
 date: 2020-11-03
 img: submarine.png
