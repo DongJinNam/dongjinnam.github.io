@@ -2,6 +2,7 @@
 layout: post
 modal-id: 6
 date: 2020-11-03
+author: nandy
 img: submarine.png
 alt: image-alt
 project-date: November 2020
