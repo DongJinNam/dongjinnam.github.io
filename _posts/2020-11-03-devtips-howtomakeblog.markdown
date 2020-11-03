@@ -7,7 +7,7 @@ img: submarine.png
 alt: image-alt
 project-date: November 2020
 client: Start Bootstrap
-category: Dev Tips
+category: dev-tips
 title:  "[DevTips] How to make github blog"
 description: How to make github blog by nandy
 ---
@@ -49,7 +49,26 @@ $ git commit -m "[Update] Centrarium theme _config.yml"
 $ git push origin master
 ```
 
-**local test**
+**Local Test**
+
+* 로컬 테스트 시, ruby 가 global 환경으로 설치가 되어야 합니다.
+
+**Ubuntu 환경 ruby 설치**
+
+```sh
+$ sudo apt update
+$ sudo apt install autoconf bison build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm5 libgdbm-dev
+$ git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+$ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+$ echo 'eval "$(rbenv init -)"' >> ~/.bashrc
+$ source ~/.bashrc
+# ruby 전역 2.6.0 이상 설정
+$ rbenv install 2.6.0
+# ruby version check
+$ ruby -v 
+```
+
+**로컬 서버 기동**
 
 ```sh
 $ bundle exec jekyll serve
