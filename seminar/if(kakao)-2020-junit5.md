@@ -8,7 +8,7 @@
 
 ### 동기
 
-* Junit4 를 사용하다 보니, 이는 더 이상 Release 계획 x
+* Junit4 를 사용하다 보니, 이는 더 이상 Release 계획이 없음.
 * Junit4 대신 Juni5 로 개발하고 있는 상태
 * 최신 다양한 테스트 라이브러리는 Junit5 기반
 * 많은 오픈소스들도 Junit5 기반 가이드 작성 중
@@ -65,24 +65,8 @@ void testInPackage() {
 }
 ```
 
+### Junit5 Components
 
-
-### Third Party
-
-* TestEngine 확장 예 Spock 2
-* Kotlin Spek, Kotest 등
-
-
-
-### Junit5 Architecture
-
-
-
-Components(
-
-[상세 내용은 강의 참고]: https://if.kakao.com/session/108
-
-)
 
 * Vintage
 * Jupiter
@@ -92,9 +76,7 @@ Components(
 
 
 
-### Junit Basic
-
-
+### Junit 4 -> Junit 5
 
 * @BeforeClass -> @BeforeAll
 * @Before -> @BeforeEach
@@ -248,7 +230,7 @@ Stream<DynamicNode> dynamicTests() {
 
 ### Spring with Junit5
 
-Junit4 & SpringTest
+**Junit4 & SpringTest**
 
 * 하나의 @RunWith 만 사용, @Rule 을 통한 확장
 
@@ -264,7 +246,7 @@ public class SpringRuleTest {
 
 
 
-Junit5 & SpringTest
+**Junit5 & SpringTest**
 
 * @Rule 대신 @ExtendWith(SpringExtension.class) 추가 하면 됨
 * Spring Framework 5.0 이후 Junit5 가 통합됨
