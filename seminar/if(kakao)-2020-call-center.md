@@ -2,7 +2,7 @@
 
 
 
-**if(kakao) 2020**
+[**if(kakao) 2020 - 언택트 시대 상담의 진화**](https://if.kakao.com/session/62)
 
 **From : 카카오 스마트채팅플랫폼기획팀 Yum**
 
